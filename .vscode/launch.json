@@ -1,0 +1,9 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"type": "java", "name": "Demo: encrypted chat", "request": "launch", "mainClass": "kz.securechat.Main", "args": "demo", "console": "integratedTerminal", "cwd": "${workspaceFolder}"},
+    {"type": "java", "name": "1. Server", "request": "launch", "mainClass": "kz.securechat.Main", "args": "server", "console": "integratedTerminal", "cwd": "${workspaceFolder}"},
+    {"type": "java", "name": "2. Alice", "request": "launch", "mainClass": "kz.securechat.Main", "args": "client Alice", "console": "integratedTerminal", "cwd": "${workspaceFolder}"},
+    {"type": "java", "name": "3. Bob", "request": "launch", "mainClass": "kz.securechat.Main", "args": "client Bob", "console": "integratedTerminal", "cwd": "${workspaceFolder}"}
+  ]
+}

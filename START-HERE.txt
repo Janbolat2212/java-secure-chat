@@ -1,0 +1,30 @@
+JAVA SECURE CHAT — БЫСТРЫЙ СТАРТ
+
+Проект уже собран. Java 21 установлена на этом компьютере.
+
+1. Самая быстрая демонстрация (в терминале папки проекта):
+   java -jar target/secure-chat.jar demo
+
+2. Сборка и все тесты:
+   .\mvnw.cmd verify
+
+3. Двойной щелчок по run-demo.cmd также запускает сборку, тесты и демо.
+
+4. Для переписки вручную открой три терминала в этой папке:
+   java -jar target/secure-chat.jar server
+   java -jar target/secure-chat.jar client Alice
+   java -jar target/secure-chat.jar client Bob
+
+   В терминале Alice: /to Bob Сәлем!
+   В терминале Bob:   /to Alice Привет!
+   Выход: /quit. Остановка сервера: Ctrl+C.
+
+5. Если VS Code показывает Restricted Mode, запуск и отладка редактором ограничены.
+   Владелец может разрешить доверие именно этой папке через Manage → Workspace Trust.
+   Доверие ко всему Documents или отключение защиты редактора не требуется.
+
+Подробности: README.md.
+Как объяснить проект на защите: docs/DEFENSE.md.
+Что оставить на следующие этапы: docs/CHECKPOINTS.md.
+
+Это рабочая предварительная версия 0.9, финальный релиз v1.0 ещё не выпущен.

@@ -1,0 +1,10 @@
+=== JAVA SECURE CHAT / DEMO ===
+[OK] Сервер запущен на 127.0.0.1:50501
+[OK] Alice и Bob проверили fingerprint и передали AES-ключи через RSA-OAEP.
+Bob получил от Alice: Сәлем, Bob! Қауіпсіз байланыс жұмыс істейді.
+Alice получила от Bob: Привет, Alice! Сообщение получено.
+[OK] Нет получателя: Recipient is not connected: OfflineUser
+[OK] Неверный fingerprint: подключение отклонено.
+Пример шифротекста (hex): 68bb5e36055bad887cdcec
+[OK] Изменённое сообщение отклонено AES-GCM.
+=== DEMO PASSED ===
